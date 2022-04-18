@@ -6,6 +6,7 @@ export { default as bloggerStartingPoint } from './blogger-starting-point';
 export { default as storeFeatures } from './store-features';
 export { default as designSetup } from './design-setup';
 export { default as import } from './import';
+export { default as importer } from './importer';
 export { default as businessInfo } from './business-info';
 export { default as fontPairing } from './font-pairing';
 export { default as storeAddress } from './store-address';
@@ -26,6 +27,7 @@ export type StepPath =
 	| 'import/ready/not'
 	| 'import/ready/wpcom'
 	| 'import/ready/preview'
+	| 'importer'
 	| 'businessInfo'
 	| 'fontPairing'
 	| 'storeAddress'
