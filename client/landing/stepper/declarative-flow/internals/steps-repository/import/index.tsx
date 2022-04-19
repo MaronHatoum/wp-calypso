@@ -21,13 +21,14 @@ import { GoToStep } from 'calypso/signup/types';
 import { getUrlData } from 'calypso/state/imports/url-analyzer/selectors';
 import isAtomicSiteSelector from 'calypso/state/selectors/is-site-automated-transfer';
 import { getFinalImporterUrl } from './helper';
-import { redirect, removeTrailingSlash } from './util';
+import { redirect, removeLeadingSlash, removeTrailingSlash } from './util';
 import type { Step } from '../../types';
 import './style.scss';
 
 const ImportStep: Step = function ImportStep( props ) {
 	const { __ } = useI18n();
 	const BASE_ROUTE = 'import';
+	const BASE_STEPPER_ROUTE = 'setup';
 	const { navigation } = props;
 
 	/**
@@ -64,14 +65,17 @@ const ImportStep: Step = function ImportStep( props ) {
 	}
 
 	function goToImporterPage() {
-		const url = getFinalImporterUrl(
+		let url = getFinalImporterUrl(
 			siteSlug as string,
 			urlData.url,
 			urlData.platform,
-			isAtomicSite
-		);
+			isAtomicSite,
+			'stepper'
+		).replace( BASE_STEPPER_ROUTE, '' );
+		url = removeLeadingSlash( url );
 
-		redirect( url );
+		if ( url.includes( 'wp-admin' ) ) redirect( url );
+		else navigation.goToStep?.( url as StepPath );
 	}
 
 	function shouldHideSkipBtn() {
