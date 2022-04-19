@@ -178,6 +178,7 @@ export const siteSetupFlow: Flow = {
 					return navigate( 'import' );
 
 				case 'importer':
+				case 'importer/wordpress':
 					return navigate( 'import' );
 
 				default:

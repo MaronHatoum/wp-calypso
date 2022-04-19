@@ -28,6 +28,7 @@ export type StepPath =
 	| 'import/ready/wpcom'
 	| 'import/ready/preview'
 	| 'importer'
+	| 'importer/wordpress'
 	| 'businessInfo'
 	| 'fontPairing'
 	| 'storeAddress'
