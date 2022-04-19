@@ -177,6 +177,9 @@ export const siteSetupFlow: Flow = {
 				case 'import/ready/preview':
 					return navigate( 'import' );
 
+				case 'importer':
+					return navigate( 'import' );
+
 				default:
 					return navigate( 'intent' );
 			}
