@@ -14,6 +14,12 @@ import jetbrains.buildServer.configs.kotlin.v2019_2.failureConditions.failOnMetr
 import jetbrains.buildServer.configs.kotlin.v2019_2.projectFeatures.buildReportTab
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.schedule
 
+object GutenbergParameters {
+	val targetDevice: String
+	val atomic: Boolean
+	val edge: Boolean
+}
+
 object WPComTests : Project({
 	id("WPComTests")
 	name = "WPCom Tests"
@@ -32,14 +38,14 @@ object WPComTests : Project({
 	}
 
 	// Gutenberg Simple
-	buildType(gutenbergPlaywrightBuildType("desktop", "fab2e82e-d27b-4ba2-bbd7-232df944e75c", false, false));
-	buildType(gutenbergPlaywrightBuildType("mobile", "77a5a0f1-9644-4c04-9d27-0066cd2d4ada", false, false));
+	buildType(gutenbergPlaywrightBuildType("fab2e82e-d27b-4ba2-bbd7-232df944e75c", {targetDevice: "desktop", atomic: false, edge: false}));
+	buildType(gutenbergPlaywrightBuildType("77a5a0f1-9644-4c04-9d27-0066cd2d4ada", {targetDevice: "mobile", atomic: false, edge: false}));
 	// Gutenberg Simple Edge
-	buildType(gutenbergPlaywrightBuildType("desktop", "e8817ab4-ec4e-4d58-a215-d1f87b2227b6", false, true));
-	buildType(gutenbergPlaywrightBuildType("mobile", "a655d304-4dcf-4864-8d82-8b22dba29feb", false, true));
+	buildType(gutenbergPlaywrightBuildType("e8817ab4-ec4e-4d58-a215-d1f87b2227b6", {targetDevice: "desktop", atomic: false, edge: true}));
+	buildType(gutenbergPlaywrightBuildType("a655d304-4dcf-4864-8d82-8b22dba29feb", {targetDevice: "mobile", atomic: false, edge: true}));
 	// Gutenberg Atomic
-	buildType(gutenbergPlaywrightBuildType("desktop", "c341e9b9-1118-48e9-a569-325100f5fd9" , true, false));
-	buildType(gutenbergPlaywrightBuildType("mobile", "e0f7e412-ae6c-41d3-9eec-c57c94dd8385", true, false));
+	buildType(gutenbergPlaywrightBuildType("c341e9b9-1118-48e9-a569-325100f5fd9", {targetDevice: "desktop", atomic: true, edge: false}));
+	buildType(gutenbergPlaywrightBuildType("e0f7e412-ae6c-41d3-9eec-c57c94dd8385", {targetDevice: "mobile", atomic: true, edge: false}));
 
 	buildType(coblocksPlaywrightBuildType("desktop", "08f88b93-993e-4de8-8d80-4a94981d9af4"));
 	buildType(coblocksPlaywrightBuildType("mobile", "cbcd44d5-4d31-4adc-b1b5-97f1225c6a7c"));
@@ -51,9 +57,10 @@ object WPComTests : Project({
 	buildType(P2E2ETests)
 })
 
-fun gutenbergPlaywrightBuildType( targetDevice: String, buildUuid: String, atomic: Boolean = false ): E2EBuildType {
-	var siteType = if (atomic) "atomic" else "simple";
-	var edgeType = if (edge) "edge" else "production";
+fun gutenbergPlaywrightBuildType( buildUuid: String, gutenbergParameters: GutenbergParameters ): E2EBuildType {
+	var siteType = if (gutenbergParameters.atomic) "atomic" else "simple";
+	var edgeType = if (gutenbergParameters.edge) "edge" else "production";
+	val targetDevice = gutenbergParameters.targetDevice;
 
     return E2EBuildType (
 		buildId = "WPComTests_gutenberg_Playwright_${siteType}_${edgeType}_$targetDevice",
@@ -74,14 +81,6 @@ fun gutenbergPlaywrightBuildType( targetDevice: String, buildUuid: String, atomi
 				value = "false",
 				label = "Use coblocks-edge",
 				description = "Use a blog with coblocks-edge sticker",
-				checked = "true",
-				unchecked = "false"
-			)
-			checkbox(
-				name = "env.TEST_ON_ATOMIC",
-				value = "false",
-				label = "Test on Atomic",
-				description = "Use an Atomic blog to test against",
 				checked = "true",
 				unchecked = "false"
 			)
