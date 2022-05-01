@@ -10216,7 +10216,7 @@ __metadata:
     webpack-cli: ^4.9.2
     winston: ^3.3.3
     wpcom-xhr-request: "workspace:^"
-    ws: ^7.3.1
+    ws: ^7.5.7
   languageName: unknown
   linkType: soft
 
@@ -38695,9 +38695,9 @@ testarmada-magellan@11.0.10:
   languageName: node
   linkType: hard
 
-"ws@npm:^7, ws@npm:^7.2.3, ws@npm:^7.3.1, ws@npm:^7.4.5":
-  version: 7.5.5
-  resolution: "ws@npm:7.5.5"
+"ws@npm:^7, ws@npm:^7.2.3, ws@npm:^7.3.1, ws@npm:^7.4.5, ws@npm:^7.5.7":
+  version: 7.5.7
+  resolution: "ws@npm:7.5.7"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -38706,7 +38706,7 @@ testarmada-magellan@11.0.10:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: ca1674eb90923c1b67a7df99709119c38b39b20db7595255dc146fae6f0cdf513311714a314a30819cf6bbe06bb31378bb4722d0a3025c161ef556281077e5ec
+  checksum: f856382d94dfa8d722337d79117fe4f16d48ef7d7f77a58e94af7d7f32e863fce8403c00992ddddbf1efd5a334c581c2a987aea66255f7ee368680e59f78ae15
   languageName: node
   linkType: hard
 
