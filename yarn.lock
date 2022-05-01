@@ -486,7 +486,7 @@ __metadata:
     debug: ^4.3.3
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -522,7 +522,7 @@ __metadata:
     "@wordpress/element": ^4.0.4
     "@wordpress/i18n": ^4.2.4
     react: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -658,7 +658,7 @@ __metadata:
     "@wordpress/element": ^4.0.4
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -824,7 +824,7 @@ __metadata:
     "@wordpress/data": ^6.1.5
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -889,7 +889,7 @@ __metadata:
     "@wordpress/data": ^6.1.5
     "@wordpress/element": ^4.0.4
     "@wordpress/i18n": ^4.2.4
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1045,7 +1045,7 @@ __metadata:
     postcss: ^8.4.5
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
     webpack: ^5.68.0
   languageName: unknown
@@ -1080,7 +1080,7 @@ __metadata:
   peerDependencies:
     "@wordpress/i18n": ^4.2.4
     react: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
   languageName: unknown
   linkType: soft
 
@@ -1107,7 +1107,7 @@ __metadata:
   peerDependencies:
     "@wordpress/data": ^6.1.5
     react: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1140,7 +1140,7 @@ __metadata:
     "@wordpress/i18n": ^4.2.4
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1246,7 +1246,7 @@ __metadata:
   peerDependencies:
     "@wordpress/data": ^6.1.5
     react: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1309,7 +1309,7 @@ __metadata:
     "@wordpress/element": ^4.0.4
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1421,7 +1421,7 @@ __metadata:
     "@wordpress/data": ^6.1.5
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1488,7 +1488,7 @@ __metadata:
     postcss: ^8.4.5
     react: ^17.0.2
     react-dom: ^17.0.2
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
     tinymce: ^5.0.0
     webpack: ^5.68.0
@@ -1606,7 +1606,7 @@ __metadata:
     react-popper: ^2.2.5
     react-query: ^3.32.1
     react-redux: ^7.2.6
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
     redux-thunk: ^2.3.0
     utility-types: ^3.10.0
@@ -12867,8 +12867,8 @@ __metadata:
     react-router-dom: ^5.1.2
     react-test-renderer: ^17.0.2
     react-transition-group: ^4.3.0
-    reakit: ^1.2.3
-    reakit-utils: ^0.15.1
+    reakit: ^1.3.11
+    reakit-utils: ^0.15.2
     redux: ^4.1.2
     redux-dynamic-middlewares: ^2.0.0
     redux-mock-store: ^1.5.4
@@ -31386,9 +31386,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"reakit@npm:^1.2.3, reakit@npm:^1.3.5, reakit@npm:^1.3.8":
-  version: 1.3.9
-  resolution: "reakit@npm:1.3.9"
+"reakit@npm:^1.3.11, reakit@npm:^1.3.5, reakit@npm:^1.3.8":
+  version: 1.3.11
+  resolution: "reakit@npm:1.3.11"
   dependencies:
     "@popperjs/core": ^2.5.4
     body-scroll-lock: ^3.1.5
@@ -31398,7 +31398,7 @@ fsevents@~2.1.2:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 047f86255bddd0c060140abe060709ca81e5b99c55f8fed7da981388ac16ec6f8d7dda45e17e715b02f045e8372c8b7794610e498d2c981aaa23c5ece1ab4b81
+  checksum: ce5972b1242bd0704840c77faa6f687cc3bd0e66ac5f6fe84328408d2e624a4532c4bb1d82b6b6dcbc876dc0700c472b420acebf80603d59115a810ae8916e12
   languageName: node
   linkType: hard
 
@@ -38363,7 +38363,7 @@ testarmada-magellan@11.0.10:
     react: ^17.0.2
     react-dom: ^17.0.2
     readline-sync: ^1.4.10
-    reakit-utils: ^0.15.1
+    reakit-utils: ^0.15.2
     recursive-copy: ^2.0.10
     redux: ^4.1.2
     replace: ^1.1.5
