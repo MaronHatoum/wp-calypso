@@ -12782,7 +12782,7 @@ __metadata:
     bunyan: ^1.8.15
     chai: ^4.3.4
     chalk: ^4.1.2
-    chrono-node: ^2.3.5
+    chrono-node: ^2.3.8
     circular-dependency-plugin: ^5.2.2
     classnames: ^2.3.1
     clipboard: ^2.0.6
@@ -13363,12 +13363,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chrono-node@npm:^2.3.5":
-  version: 2.3.5
-  resolution: "chrono-node@npm:2.3.5"
+"chrono-node@npm:^2.3.8":
+  version: 2.3.8
+  resolution: "chrono-node@npm:2.3.8"
   dependencies:
     dayjs: ^1.10.0
-  checksum: aada72974a4bd6dac4d6f7a9efad8006845636105248c468e79f3aa6a86764c56a2c7329bbf9bf10bdc8e0f4225028ccc889bef98b92903cea1727b64b14db90
+  checksum: 6b34f2d50a5b557183daf8fda1b2e7f1cdd7db4c4aeb635353bce709d73542a00932fd17d5a9815c181f82ab7f9b3e6222ebc560abf8c822ced429d3e07cdd7b
   languageName: node
   linkType: hard
 
