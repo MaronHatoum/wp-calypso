@@ -12845,7 +12845,7 @@ __metadata:
     page: ^1.11.5
     path-browserify: ^1.0.1
     percentage-regex: ^3.0.0
-    phone: ^2.4.2
+    phone: ^2.4.22
     photon: "workspace:^"
     pkg-dir: ^5.0.0
     postcss: ^8.4.5
@@ -28517,10 +28517,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"phone@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "phone@npm:2.4.2"
-  checksum: 1ad1507f213b2f7709cff36912d78035f52b7c468f356abb14402da7e1be00768ad444d31f236f23b2105f08c59863d89f627f1b4a893f7007a74067f43e91f0
+"phone@npm:^2.4.22":
+  version: 2.4.22
+  resolution: "phone@npm:2.4.22"
+  checksum: fc2cc66537cd6b80936fa438043bc7f74ede8a9b4893c427cf7956f15e98e5835211a1b278d2aac849e5cccdd2a17876ada1fa3e1a1b52944e6432c04d349a20
   languageName: node
   linkType: hard
 
