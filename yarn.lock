@@ -12888,7 +12888,7 @@ __metadata:
     twemoji: ^12.1.4
     ua-parser-js: ^0.7.22
     use-debounce: ^3.1.0
-    util: ^0.12.3
+    util: ^0.12.4
     utility-types: ^3.10.0
     uuid: ^8.3.2
     valid-url: ^1.0.9
@@ -37261,9 +37261,9 @@ testarmada-magellan@11.0.10:
   languageName: node
   linkType: hard
 
-"util@npm:^0.12.3":
-  version: 0.12.3
-  resolution: "util@npm:0.12.3"
+"util@npm:^0.12.4":
+  version: 0.12.4
+  resolution: "util@npm:0.12.4"
   dependencies:
     inherits: ^2.0.3
     is-arguments: ^1.0.4
@@ -37271,7 +37271,7 @@ testarmada-magellan@11.0.10:
     is-typed-array: ^1.1.3
     safe-buffer: ^5.1.2
     which-typed-array: ^1.1.2
-  checksum: 48d0ab3398d2d1a8fde859790448d97eba3066d2b0e79a392cb16cf92414190e1cd25acab1aa88bbd755863ea877e68b1a6a5f231943d6853072181b5cecaede
+  checksum: 3e04e6feb68bccdc9fdfa013050719b3b41ce698ff5e244ee683d675b7fb9b91c8a1594b164696ee2201cca9579c286b968d0aabd9c9069ae1667413940a4e49
   languageName: node
   linkType: hard
 
