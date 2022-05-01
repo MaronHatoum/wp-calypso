@@ -36335,9 +36335,9 @@ testarmada-magellan@11.0.10:
   languageName: node
   linkType: hard
 
-"tus-js-client@npm:2.3.0":
-  version: 2.3.0
-  resolution: "tus-js-client@npm:2.3.0"
+"tus-js-client@npm:2.3.1":
+  version: 2.3.1
+  resolution: "tus-js-client@npm:2.3.1"
   dependencies:
     buffer-from: ^0.1.1
     combine-errors: ^3.0.3
@@ -36345,8 +36345,8 @@ testarmada-magellan@11.0.10:
     js-base64: ^2.6.1
     lodash.throttle: ^4.1.1
     proper-lockfile: ^2.0.1
-    url-parse: ^1.4.3
-  checksum: 0ac1c764a066ec2363f3508cd72ab0beaac91af2ad3d3ef5d09155db6d220f73a64a49e8f09f846eef2fd00a3e6d0d10f0900338526a8336846d40a8c051ee3d
+    url-parse: ^1.5.7
+  checksum: 836104ff19ccf981e4073bc764f82791487bd4bee6882ab0f3f318c9ca806df4784112491142f1a1885fe47aa9f149f81ceedc00dfa30c65212e99e1f5ea7c7d
   languageName: node
   linkType: hard
 
@@ -37067,7 +37067,7 @@ testarmada-magellan@11.0.10:
   languageName: node
   linkType: hard
 
-"url-parse@npm:^1.4.3":
+"url-parse@npm:^1.5.7":
   version: 1.5.10
   resolution: "url-parse@npm:1.5.10"
   dependencies:
@@ -38515,7 +38515,7 @@ testarmada-magellan@11.0.10:
     debug: ^4.3.3
     npm-run-all: ^4.1.5
     qs: ^6.5.2
-    tus-js-client: 2.3.0
+    tus-js-client: 2.3.1
     webpack: ^5.68.0
     webpack-cli: ^4.9.2
     wpcom-oauth-cors: ^1.0.2-beta
