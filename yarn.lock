@@ -12877,7 +12877,7 @@ __metadata:
     sinon: ^12.0.1
     social-logos: ^2.4.0
     socket.io-client: ^2.3.0
-    source-map-support: ^0.5.19
+    source-map-support: ^0.5.21
     store: ^2.0.12
     striptags: ^3.1.1
     superagent: ^3.8.3
@@ -34124,13 +34124,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:^0.5.16, source-map-support@npm:^0.5.19, source-map-support@npm:^0.5.6, source-map-support@npm:~0.5.12, source-map-support@npm:~0.5.20":
-  version: 0.5.20
-  resolution: "source-map-support@npm:0.5.20"
+"source-map-support@npm:^0.5.16, source-map-support@npm:^0.5.19, source-map-support@npm:^0.5.21, source-map-support@npm:^0.5.6, source-map-support@npm:~0.5.12, source-map-support@npm:~0.5.20":
+  version: 0.5.21
+  resolution: "source-map-support@npm:0.5.21"
   dependencies:
     buffer-from: ^1.0.0
     source-map: ^0.6.0
-  checksum: 84a909248b1b7971d37fde1f2488a5e3b7aa2d676f92373a8bddcf5b059574d09971b82d2911ae91feb8245f9f2b0e0766f73b9c51ffb26c0fd2df5d44938307
+  checksum: 9ee09942f415e0f721d6daad3917ec1516af746a8120bba7bb56278707a37f1eb8642bde456e98454b8a885023af81a16e646869975f06afc1a711fb90484e7d
   languageName: node
   linkType: hard
 
