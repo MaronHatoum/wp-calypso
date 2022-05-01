@@ -249,7 +249,7 @@ __metadata:
     mailosaur: ^7.3.1
     node-fetch: ^2.6.6
     playwright: ^1.19.2
-    totp-generator: ^0.0.12
+    totp-generator: ^0.0.13
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
@@ -36078,12 +36078,12 @@ testarmada-magellan@11.0.10:
   languageName: node
   linkType: hard
 
-"totp-generator@npm:^0.0.12":
-  version: 0.0.12
-  resolution: "totp-generator@npm:0.0.12"
+"totp-generator@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "totp-generator@npm:0.0.13"
   dependencies:
     jssha: ^3.1.2
-  checksum: b79886c39bbfef4c60313ac26240a1f11dd3645948f84286ab1d11684163d3628e1b3fb7dd2803c2b3c337535d96eb9167b5b03f807463223ceef75b9cc51e8d
+  checksum: e6a41c25450c35414249844d390f9ecdcc1823130c1c1099dfae127b43f3d67e27fa5e9c2577c42b74ff5954e9a98b6219df21c56c1bd07d9274355339b3043c
   languageName: node
   linkType: hard
 
