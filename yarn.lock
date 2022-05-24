@@ -12835,7 +12835,7 @@ __metadata:
     lodash-es: ^4.17.21
     lru: ^3.1.0
     lunr: ^2.3.8
-    marked: ^4.0.0
+    marked: ^4.0.16
     mock-fs: ^5.0.0
     mockdate: ^2.0.5
     moment: ^2.26.0
@@ -25338,12 +25338,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.0.0":
-  version: 4.0.10
-  resolution: "marked@npm:4.0.10"
+"marked@npm:^4.0.16":
+  version: 4.0.16
+  resolution: "marked@npm:4.0.16"
   bin:
     marked: bin/marked.js
-  checksum: 137660cd1eca54cfcdcec9d9c7dea786fc57ba3663da9043b721aff4c1419fc869d21bc38f6d5907062b82d4ef354f4fcac6605cac5f4f9dc1595a743b856d91
+  checksum: 01960a496bbd1139d4097e5eae7bb4791063c959ca5267b9307a79812d68f96f2bcb4151f9886afe6d90296bd33250b5cb5e5984197242ce3bf121ed5d2fd3c2
   languageName: node
   linkType: hard
 
